@@ -1,0 +1,12 @@
+me\hiremedev\basicminigameformula\Managers\BlockManager.class
+me\hiremedev\basicminigameformula\Structure\TwistyPlugin.class
+me\hiremedev\basicminigameformula\Managers\GameManager.class
+me\hiremedev\basicminigameformula\Listeners\BlockBreakListener.class
+me\hiremedev\basicminigameformula\BasicMinigameFormula.class
+me\hiremedev\basicminigameformula\Commands\Start.class
+me\hiremedev\basicminigameformula\Enums\Kit.class
+me\hiremedev\basicminigameformula\Managers\GameManager$1.class
+me\hiremedev\basicminigameformula\Tasks\GameStartCountdownTask.class
+me\hiremedev\basicminigameformula\Managers\PlayerManager.class
+me\hiremedev\basicminigameformula\Structure\TwistyCommand.class
+me\hiremedev\basicminigameformula\Enums\GameState.class

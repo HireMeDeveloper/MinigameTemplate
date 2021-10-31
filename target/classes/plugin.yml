@@ -1,0 +1,9 @@
+name: BasicMinigameFormula
+version: '1.0-SNAPSHOT'
+main: me.hiremedev.basicminigameformula.BasicMinigameFormula
+api-version: 1.17
+
+commands:
+  start:
+    usage: /start
+    description: moves the game state to pregame
