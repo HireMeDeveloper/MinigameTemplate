@@ -1,7 +1,7 @@
 package me.hiremedev.basicminigameformula.Structure;
 
+
 import org.bukkit.event.Listener;
-import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -19,8 +19,8 @@ public class TwistyPlugin extends JavaPlugin {
                 .forEach((listener) -> getPluginManager().registerEvents(listener, this));
     }
 
-    public void registerCommands(TwistyCommand... twistyommands) {
-        Arrays.stream(twistyommands)
+    public void registerCommands(TwistyCommand... twistycommands) {
+        Arrays.stream(twistycommands)
                 .forEach((twistyCommand) -> {
                     var command = getCommand(twistyCommand.getName());
                     Optional.ofNullable(twistyCommand.getTabExecutor()).ifPresentOrElse(
